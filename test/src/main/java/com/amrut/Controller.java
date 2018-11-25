@@ -22,5 +22,6 @@ public class Controller {
 		for(String name:keys)
 			System.out.println(name+ "  "+names.get(name) );
 
+		System.out.println("done with changes");
 	}
 }
