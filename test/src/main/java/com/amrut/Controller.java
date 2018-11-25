@@ -15,7 +15,9 @@ public class Controller {
 	//method to change name, removed iterator using other developer for loop
 	public void changeName(){		
 
-		System.out.println("pushing code to new branch");
+
+		System.out.println("this is master   branch");
+
 		names.put("1", "amrut");
 		names.put("2", "rohit");
 		names.put("3", "rohan");
