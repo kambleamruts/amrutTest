@@ -16,8 +16,7 @@ public class Controller {
 	public void changeName(){		
 
 
-		System.out.println("this is master   branch");
-
+		System.out.println("this is master   branch by developer 1");
 		names.put("1", "amrut");
 		names.put("2", "rohit");
 		names.put("3", "rohan");
