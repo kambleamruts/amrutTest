@@ -12,8 +12,7 @@ public class Controller {
 	HashMap<String,String>names=new HashMap<String,String>();	
 
 	//method to change name, removed iterator using other developer for loop
-	public void changeName(){
-		
+	public void changeName(){		
 		System.out.println("this is master branch");
 
 		names.put("1", "amrut");
