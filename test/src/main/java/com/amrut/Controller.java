@@ -10,8 +10,10 @@ public class Controller {
 	
 	HashMap<String,String>names=new HashMap<String,String>();	
 
-	//method to change name
+	//method to change name, removed iterator using other developer for loop
 	public void changeName(){
+		
+		System.out.println("inside method changeName");
 		names.put("1", "amrut");
 		names.put("2", "rohit");
 		names.put("3", "rohan");
@@ -19,5 +21,6 @@ public class Controller {
 		Set<String> keys=names.keySet();
 		for(String name:keys)
 			System.out.println(name+ "  "+names.get(name) );
+
 	}
 }
