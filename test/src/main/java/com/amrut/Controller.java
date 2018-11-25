@@ -15,7 +15,7 @@ public class Controller {
 		
 		
 		
-		System.out.println("this is slave branch");
+		System.out.println("this is slave branch from developer 2");
 		names.put("1", "amrut");
 		names.put("2", "rohit");
 		names.put("3", "rohan");
