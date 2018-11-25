@@ -15,7 +15,6 @@ public class Controller {
 	//method to change name, removed iterator using other developer for loop
 	public void changeName(){		
 		System.out.println("this is master branch");
-
 		names.put("1", "amrut");
 		names.put("2", "rohit");
 		names.put("3", "rohan");
@@ -25,6 +24,7 @@ public class Controller {
 			System.out.println(name+ "  "+names.get(name) );
 
 		System.out.println("done with changes");
+		
 		
 		List<String> ids=new ArrayList<String>();
 		ids.add("1");
