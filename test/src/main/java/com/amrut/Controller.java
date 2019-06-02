@@ -1,8 +1,6 @@
 package com.amrut;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Set;
 
 
@@ -16,7 +14,7 @@ public class Controller {
 	public void changeName(){		
 
 		System.out.println("this is master   branch");
-		names.put("1", "amrut");
+		names.put("1", "n");
 		names.put("2", "rohit");
 		names.put("3", "rohan");
 		names.put("4", "rahul");
@@ -26,13 +24,17 @@ public class Controller {
 
 		System.out.println("done with changes");
 		
-		
-		List<String> ids=new ArrayList<String>();
-		ids.add("1");
-		ids.add("2");
-		ids.add("3");
-		ids.add("4");
-		ids.add("5");
-		ids.add("6");
 	}
+
+
+	public HashMap<String, String> getNames() {
+		return names;
+	}
+
+
+	public void setNames(HashMap<String, String> names) {
+		this.names = names;
+	}
+	
+	
 }
