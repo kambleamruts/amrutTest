@@ -28,9 +28,10 @@ public class Controller {
 		System.out.println("done with changes");
 		
 		
-		List<String> ids=new ArrayList<String>();
-		ids.add(AskConstant.EMPLOYEE_NAME);
-		ids.add(AskConstant.EMPLOYEE_ID);
-		ids.add(AskConstant.EMPLOYEE_SALARY);
+		List<String> ids1=new ArrayList<String>();
+		ids1.add(AskConstant.EMPLOYEE_NAME);
+		ids1.add(AskConstant.EMPLOYEE_ID);
+		ids1.add(AskConstant.EMPLOYEE_SALARY);
+		  
 	}
 }
