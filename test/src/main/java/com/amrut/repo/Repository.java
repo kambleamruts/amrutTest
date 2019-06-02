@@ -4,4 +4,8 @@ public class Repository {
 
 	
 	
+	public boolean returnValue(){
+	
+		return false;
 	}
+}
