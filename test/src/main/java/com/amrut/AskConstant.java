@@ -18,5 +18,8 @@ public class AskConstant {
 		asdsa.setHostName("");
 		
 	}
+	public void show(int a){
+		asdsa.setHostName("");
+	}
 
 }
