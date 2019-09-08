@@ -9,4 +9,5 @@ public class AskConstant {
 	public final static String EMPLOYEE_DOB="24/10/1989";
 	public final static String EMPLOYEE_LASTNAME="Kamble";
 	public final static String EMPLOYEE_LASTNAME1="Kamble";
+	
 }
