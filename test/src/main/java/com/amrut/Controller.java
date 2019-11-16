@@ -25,7 +25,10 @@ public class Controller {
 		for(String name:keys)
 			System.out.println(name+ "  "+names.get(name) );
 
+
 		System.out.println("done with changes");
+		
+		
 		List<String> ids=new ArrayList<String>();
 		ids.add("1");
 		ids.add("2");
@@ -33,6 +36,14 @@ public class Controller {
 		ids.add("4");
 		ids.add("5");
 		ids.add("6");
+		
+		
+		List<String> names=new ArrayList<String>();
+		names.add("amrut");
+		names.add("ajay");
+		names.add("akash");
+		names.add("aditi");
+		names.add("anandi");
 
 	}
 }
